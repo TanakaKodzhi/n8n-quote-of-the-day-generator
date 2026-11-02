@@ -24,7 +24,7 @@
 * **Генерация изображений:** Pollinations AI REST API (`image.pollinations.ai`)
 * **Транспорт и доставка:** Telegram Bot API (`sendPhoto`)
 
-![Схема workflow](quote_day_schema.png)
+[Схема workflow](quote_day_schema.png)
 
 ```text
 [ Schedule Trigger (07:00) ]
