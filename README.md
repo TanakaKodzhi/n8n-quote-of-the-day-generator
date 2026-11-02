@@ -24,7 +24,7 @@
 * **Генерация изображений:** Pollinations AI REST API (`image.pollinations.ai`)
 * **Транспорт и доставка:** Telegram Bot API (`sendPhoto`)
 
-[Схема workflow](quote_day_schema.png)
+![Схема workflow](quote_day_schema.png)
 
 ```text
 [ Schedule Trigger (07:00) ]
@@ -54,7 +54,7 @@
 4. Бот должен быть добавлен в администраторы канала с правом публикации сообщений
 
 #### Пошаговый запуск
-![Скачайте готовый JSON шаблон](quote-of-the-day-template.md)
+[Скачайте готовый JSON шаблон](quote-of-the-day-template.md)
 1. **Импорт сценария:** Скопируйте содержимое файла сценария `workflow.json` и импортируйте его в n8n через интерфейс (`Import from File` или `Import from Clipboard`).
 2. **Настройка DeepSeek:**
    * Откройте ноду `DeepSeek Chat Model` и добавьте ваши учетные данные `DeepSeek API`.
